@@ -6,5 +6,5 @@ Do you want to know who two users follow in common on Instagram? Do you want to 
 The bot will find out the users in common, followed by those two usernames.
 
 ## How does it work
-
+First of all, you need to insert your Instagram's credentials into the file [credentials.py](credentials.py).
 
