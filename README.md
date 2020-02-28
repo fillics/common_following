@@ -6,5 +6,23 @@ Do you want to know who two users follow in common on Instagram? Do you want to 
 The bot will find out the users in common, followed by those two usernames.
 
 ## How does it work
-First of all, you need to insert your Instagram's credentials into the file [credentials.py](credentials.py).
+First of all, you need to insert your *Instagram's credentials* into the file [credentials.py](credentials.py). After that, the bot goes to https://www.instagram.com/ and uses your credentials to log in. Once it's logged in, it asks you the first username to search with the command line : 
 
+``` person = raw_input("Write username ") ```
+
+(***if the person has a Private account, the bot doesn't work***)
+
+The bot reads and saves all of the following users of that person. 
+
+```
+links = scroll_box.find_elements_by_tag_name('a')
+names = [name.text for name in links if name.text != '']
+```
+
+After that, you need to type another account and the bot does the same thing than before, saving all of the following users of the other account.
+At least, it checks the two lists and prints the common users, with the code: 
+
+```
+common = (set(list1).intersection(list2))
+print('\n'.join(common))
+```
