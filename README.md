@@ -10,7 +10,7 @@ First of all, you need to insert your *Instagram's credentials* into the file [c
 
 ``` person = raw_input("Write username ") ```
 
-(***if the person has a Private account, the bot doesn't work***)
+(***if the person has a Private Account, the bot doesn't work***)
 
 The bot reads and saves all of the following users of that person. 
 
@@ -26,3 +26,4 @@ At least, it checks the two lists and prints the common users, with the code:
 common = (set(list1).intersection(list2))
 print('\n'.join(common))
 ```
+
