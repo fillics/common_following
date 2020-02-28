@@ -40,4 +40,9 @@ common = (set(list1).intersection(list2))
 print('\n'.join(common))
 ```
 
+If you want, you can also save the users in a file.txt, called in this case *common.txt*,  with: 
 
+```
+with open("common.txt", "w") as outfile:
+outfile.write("\n".join(common))
+```
