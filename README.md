@@ -6,7 +6,7 @@ Do you want to know who two users follow in common on Instagram? Do you want to 
 The bot will find out the users in common, followed by those two usernames.
 
 ## Getting Started
-I suggest you to use **Linux** and **[Sublime Text]**(https://www.sublimetext.com/) as text editor. You can easy install it, typing in the Terminal, the following lines:
+I suggest you to use **Linux** and **[Sublime Text](https://www.sublimetext.com/)** as text editor. You can easy install it, typing in the Terminal, the following lines:
 
 ```
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
